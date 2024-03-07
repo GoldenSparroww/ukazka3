@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ukazka3.Controller">
+   <children>
+      <Slider fx:id="alfaSlider" layoutX="36.0" layoutY="67.0" majorTickUnit="15.0" max="180.0" prefHeight="14.0" prefWidth="287.0" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="betaSlider" layoutX="36.0" layoutY="119.0" majorTickUnit="15.0" max="180.0" prefHeight="14.0" prefWidth="287.0" showTickLabels="true" showTickMarks="true" />
+      <Label fx:id="alfaZadej" layoutX="365.0" layoutY="66.0" text="ALFA = " />
+      <Label fx:id="betaZadej" layoutX="365.0" layoutY="118.0" text="BETA = " />
+      <Label fx:id="gamaVysledek" layoutX="470.0" layoutY="94.0" text="GAMA = " />
+      <Label fx:id="aZadej" layoutX="73.0" layoutY="231.0" text="a = " />
+      <TextField fx:id="aZdaejTextField" layoutX="122.0" layoutY="227.0" />
+      <Label fx:id="bVysledek" layoutX="365.0" layoutY="231.0" text="b = " />
+      <Button layoutX="242.0" layoutY="328.0" mnemonicParsing="false" onAction="#OK" prefHeight="25.0" prefWidth="116.0" text="OK" />
+      <Label fx:id="chyba" layoutX="80.0" layoutY="332.0" />
+   </children>
+</AnchorPane>

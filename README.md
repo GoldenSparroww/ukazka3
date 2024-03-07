@@ -1,3 +1,3 @@
-# ukazka3
+# ukazka3 – JavaFX
 
-JavaFX - výpočty u trojúhlníku
+výpočty u trojúhlníku

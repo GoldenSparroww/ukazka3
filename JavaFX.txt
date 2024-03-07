@@ -1,0 +1,17 @@
+0. Je zapotřebí:
+	javafx-sdk-17.0.8
+	jdk-17.0.8
+
+1. Nastavit cestu na knihovnu JavyFX
+		
+	"edit configuration" -> "Edit configuration templates" -> "Application" -> "Modify options" -> "Add VM options"
+	
+	--module-path D:\Nástroje\JavaFX\javafx-sdk-17.0.8\lib --add-modules javafx.controls,javafx.fxml
+
+2. Změnit odkaz na Controller v sample.fxml
+	
+	fx:controller="com.example.demo.Controller"
+
+3. Smazat "module-info.java"
+
+	module-info.java
